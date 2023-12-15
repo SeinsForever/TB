@@ -24,7 +24,7 @@
 
 <template>
   <div class="row row-cols-auto m-3 g-4">
-    <!--  -->
+    <!-- Hello -->
       <div class="col-sm-12 col-md-6">
         <div class="p-3 rounded-3 shadow-sm">
           <div class="col col-auto mb-2">
