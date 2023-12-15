@@ -1,0 +1,50 @@
+<template>
+  <div>
+    <button
+      type="button"
+      class="btn"
+      style="color: #0058a9; background-color: #dde8ee"
+    >
+      <svg
+        width="17"
+        height="17"
+        viewBox="0 0 17 17"
+        class="bi bi-plus"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="vuesax/linear/edit">
+          <g id="edit">
+            <path
+              id="Vector"
+              d="M7.64041 1.38916H6.25124C2.77833 1.38916 1.38916 2.77833 1.38916 6.25124V10.4187C1.38916 13.8917 2.77833 15.2808 6.25124 15.2808H10.4187C13.8917 15.2808 15.2808 13.8917 15.2808 10.4187V9.02958"
+              stroke="#0058A9"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              id="Vector_2"
+              d="M11.1411 2.0977L5.66777 7.57101C5.4594 7.77939 5.25102 8.18919 5.20935 8.48786L4.91068 10.5786C4.79955 11.3357 5.33437 11.8635 6.09147 11.7594L8.18217 11.4607C8.47389 11.419 8.8837 11.2106 9.09902 11.0023L14.5723 5.52894C15.517 4.5843 15.9615 3.48686 14.5723 2.0977C13.1832 0.70853 12.0857 1.15306 11.1411 2.0977Z"
+              stroke="#0058A9"
+              stroke-width="1.5"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              id="Vector_3"
+              d="M10.3563 2.88257C10.8216 4.54262 12.1205 5.84149 13.7875 6.31381"
+              stroke="#0058A9"
+              stroke-width="1.5"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </g>
+        </g>
+      </svg>
+      В процессе
+    </button>
+  </div>
+</template>
