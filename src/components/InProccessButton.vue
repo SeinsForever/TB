@@ -2,14 +2,14 @@
   <div>
     <button
       type="button"
-      class="btn"
+      class="btn d-flex flex-row align-items-center"
       style="color: #0058a9; background-color: #dde8ee"
     >
       <svg
+        class="me-2"
         width="17"
         height="17"
         viewBox="0 0 17 17"
-        class="bi bi-plus"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -44,7 +44,7 @@
           </g>
         </g>
       </svg>
-      В процессе
+      <div class="m-0 p-0">В процессе</div>
     </button>
   </div>
 </template>
