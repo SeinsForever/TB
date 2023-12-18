@@ -76,7 +76,7 @@ export default {
 <template>
   <div class="app pt-0 ps-0 pe-0">
     <nav class="navbar navbar-expand-lg" style="background-color: #eef7f3">
-      <div class="container-fluid">
+      <div class="container-fluid px-0">
         <a class="navbar-brand ms-3" href="#"
           ><svg
             width="35"
@@ -147,8 +147,35 @@ export default {
     <div>
       <inspection-form @create="createInspecion" />
       <InspectionList :inspection="inspection" />
-      <DesciplineForm @create="createDiscipline" />
-      <DesciplineList :discipline="discipline" />
+      <!-- <DesciplineForm @create="createDiscipline" />
+      <DesciplineList :discipline="discipline" /> -->
+    </div>
+    <div class="container-fluid mt-5 p-0 mx-0">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 px-0 mx-3 border-top"
+      >
+        <a
+          href="/"
+          class="col-6 d-flex align-items-start justify-content-start mb-3 mb-md-0 ms-md-auto link-dark text-decoration-none"
+        >
+          <svg
+            class="be me-2"
+            width="35"
+            height="35"
+            viewBox="0 0 35 35"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="35" height="35" rx="3.96226" fill="#202B26" />
+            <path
+              d="M5.41432 11.5878V10.04H16.2205V11.5878H11.6898V24.4482H9.94503V11.5878H5.41432ZM18.9132 24.4482V10.04H27.6088V11.5878H20.658V16.0903H24.3163C25.3482 16.0903 26.2182 16.2592 26.9264 16.5969C27.6393 16.9346 28.1787 17.4106 28.5445 18.025C28.915 18.6395 29.1003 19.3641 29.1003 20.1989C29.1003 21.0338 28.915 21.7701 28.5445 22.408C28.1787 23.0459 27.6393 23.5454 26.9264 23.9065C26.2182 24.2677 25.3482 24.4482 24.3163 24.4482H18.9132ZM20.658 22.9286H24.3163C24.973 22.9286 25.5287 22.7973 25.9837 22.5346C26.4433 22.2673 26.7904 21.9249 27.0249 21.5075C27.2641 21.0854 27.3837 20.6398 27.3837 20.1708C27.3837 19.4813 27.1187 18.888 26.5887 18.3909C26.0587 17.889 25.3013 17.6381 24.3163 17.6381H20.658V22.9286Z"
+              fill="#8EEFC5"
+            />
+          </svg>
+        </a>
+
+        <p class="col-6 mb-0 text-muted text-end">© 2023 Company, Inc</p>
+      </footer>
     </div>
   </div>
 </template>

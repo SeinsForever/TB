@@ -20,7 +20,7 @@ export default {
       <div
         v-for="item in inspection"
         :key="item"
-        class="col-xs-12 col-sm-12 col-md-6 col-xl-4 col-xxl-3"
+        class="col-xs-12 col-sm-12 col-md-6 col-xl-4 col-xxl-3 px-0"
       >
         <div class="p-4 rounded-3 shadow-sm">
           <div class="col mb-3 p-0">
