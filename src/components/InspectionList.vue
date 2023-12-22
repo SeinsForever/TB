@@ -16,11 +16,12 @@ export default {
 </script>
 <template>
   <div>
+    <div class="text-center h1">Ваши проверки</div>
     <div class="row m-3 g-4">
       <div
         v-for="item in inspection"
         :key="item"
-        class="col-xs-12 col-sm-12 col-md-6 col-xl-4 col-xxl-3 px-0"
+        class="col-xs-12 col-sm-12 col-md-6 col-xl-4 col-xxl-3"
       >
         <div class="p-4 rounded-3 shadow-sm">
           <div class="col mb-3 p-0">
@@ -56,6 +57,8 @@ export default {
       </div>
       <!--  -->
     </div>
-    <p v-if="!inspection.length">Вы не создали ни одной проверки</p>
+    <div class="alert alert-warning" v-if="!inspection.length">
+      Вы не создали ни одной проверки
+    </div>
   </div>
 </template>
